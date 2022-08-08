@@ -1,0 +1,101 @@
+body {
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.5;
+    color: #24292f;
+    /* background-color: #ffffff; */
+    background-color: #040d21;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.container {
+    /* background-color: #040d21; */
+    z-index: 2;
+    color: #ffffff;
+    /* color: #8193b2 !important; */
+    /* background-image: url('https://github.githubassets.com/images/modules/site/home/hero-glow.svg'); */
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_left {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu_right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+}
+
+.menu_left .menu_left--nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_left .menu_left--nav ul li {
+    /* width: 100px; */
+    padding: 10px;
+}
+
+.menu_left .menu_left--logo svg {
+    fill: currentColor;
+}
+
+.menu_right--search form input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu_right .menu_right--button {
+    display: flex;
+}
+
+.menu_right .menu_right--button  p {
+    padding: 10px;
+}
+
+.introduce {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.introduce_left {
+    width: 50%;
+}
+
+.introduce_right {
+    width: 65%;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-sign_up {
+    background: linear-gradient(180deg, rgba(52, 183, 89, 0.15) 0%, rgba(46, 164, 79, 0) 100%),#2ea44f !important;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.video-globe {
+    height: 900px;
+    width: 900px;
+    position: relative;
+    z-index: -1;
+}
